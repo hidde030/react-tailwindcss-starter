@@ -1,6 +1,6 @@
 import React from 'react'
 import Footer from '../components/Footer'
-import Cards from './section/Cards'
+import Cards from '../components/Cards'
 import Hero from './section/Hero'
 
 
