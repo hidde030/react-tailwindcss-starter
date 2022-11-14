@@ -6,4 +6,7 @@
 - [Tailwind Toolbox](https://www.tailwindtoolbox.com)
 - [Tailwind Cheat Sheet](https://nerdcave.com/tailwind-cheat-sheet)
 - [Tailwind React UI](https://tailwindui.com/components)
+- [TailGrids](https://tailgrids.com/templates)
 ### Version: 1.0.0
+## Handy Links
+- [Dummy images](https://dummyimage.com/)
