@@ -1,5 +1,5 @@
 
-import { Disclosure, Dialog } from '@headlessui/react'
+import { Disclosure } from '@headlessui/react'
 import { BellIcon, XMarkIcon, Bars3CenterLeftIcon } from '@heroicons/react/24/outline'
 import apple from '../img/apple.svg'
 import { UserMenu } from './UserMenu'
