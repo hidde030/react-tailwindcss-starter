@@ -1,6 +1,6 @@
-import { Fragment } from 'react'
-import { Disclosure } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+
+import { Disclosure, Dialog } from '@headlessui/react'
+import { BellIcon, XMarkIcon, Bars3CenterLeftIcon } from '@heroicons/react/24/outline'
 import apple from '../img/apple.svg'
 import { UserMenu } from './UserMenu'
 const navigation = [
@@ -12,7 +12,6 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-console.log(window.screenY);
 export default function Navbar() {
   return (
     <Disclosure as="nav" className="bg-gray-800 fixed w-full top-0 pnmo">
@@ -27,7 +26,8 @@ export default function Navbar() {
                   {open ? (
                     <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
                   ) : (
-                    <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                    <Bars3CenterLeftIcon className="block h-6 w-6" aria-hidden="true" />
+
                   )}
                 </Disclosure.Button>
               </div>
