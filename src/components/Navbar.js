@@ -7,6 +7,8 @@ import { UserMenu } from './UserMenu'
 const navigation = [
   { name: 'Home', href: '/', current: true },
   { name: 'About', href: '/about', current: false },
+  { name: 'Score', href: '/score', current: false },
+  { name: 'Team', href: '/team', current: false },
 ]
 
 function classNames(...classes) {
