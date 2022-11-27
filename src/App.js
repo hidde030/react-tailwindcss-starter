@@ -19,6 +19,7 @@ function App() {
         <Route path="/team" exact element={<Team />} />
       </Routes>
       <Footer />
+
     </>
   );
 }
